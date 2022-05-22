@@ -187,7 +187,7 @@
     - 时间戳的意义仅在于当我们需要进行回滚操作的时候，可以定位到我们需要回滚的地方
 - 指令参数列表的顺序不限，可选参数可以省略。对于一些指令，可选参数具有初始值。
 - 指令的返回值为命令行交互中输出在标准输出流中的执行结果字符串
-
+- 指令的返回值的第一行需要额外增加`[<timestamp>]`具体实现见实例
 #### 指令列表
 
 ##### [N] `add_user`
@@ -299,12 +299,12 @@
   
     `>[666] add_train -i HAPPY_TRAINA -n 3 -m 1000 -s 上院|中院|下院 -p 114|514 -x 19:19 -t 600|600 -o 5 -d 06-01|08-17 -y G`
     
-    `0`
+    `[666] 0`
   - 举例2：
   
     `>[667] add_train -i HAPPY_TRAINB -n 2 -m 1000 -s 上院|下院 -p 114 -x 19:19 -t 600 -o _ -d 06-01|08-17 -y G`
     
-    `0`
+    `[667] 0`
 
 ##### [N] `delete_train`
 
@@ -330,7 +330,8 @@
 
   - 说明
 
-    将车次`-i`(`<trainID>`)发布。发布前的车次，不可发售车票；发布后的车次不可被删除，可发售车票。
+    将车次`-i`(`<trainID>`)发布。
+    发布前的车次，不可发售车票，无法被`query_ticket`和`query_transfer`操作所查询到；发布后的车次不可被删除。
 
   - 返回值
 
@@ -342,7 +343,7 @@
 
     `>[668] release_train -i HAPPY_TRAIN `
 
-    `0` 
+    `[668] 0` 
 
 ##### [N] `query_train`
 
@@ -370,7 +371,7 @@
 
     `>[669] query_train -d 07-01 -i HAPPY_TRAIN`
     
-    `HAPPY_TRAIN G`
+    `[669] HAPPY_TRAIN G`
     
     `上院 xx-xx xx:xx -> 07-01 19:19 0 1000`
     
@@ -402,7 +403,7 @@
   
   `>[670] query_ticket -s 中院 -t 下院 -d 08-17`
   
-    `1`
+    `[670] 1`
   
     `HAPPY_TRAIN 中院 08-17 05:24 -> 下院 08-17 15:24 514 1000`
   
@@ -412,7 +413,13 @@
 
   - 说明
 
-    在恰好换乘一次（换乘同一辆车不算恰好换乘一次）的情况下查询符合条件的车次，仅输出最优解。如果出现多个最优解（`-p time`总时间相同,`-p cost`总价格相同)，则选择在第一辆列车上花费的时间更少的方案。请注意：这里的日期是列车从`-s`出发的日期，不是从列车始发站出发的日期。
+    在恰好换乘一次（换乘同一辆车不算恰好换乘一次）的情况下查询符合条件的车次，仅输出最优解。
+    最优解的定义如下:
+      * 若`(-p time)` 则 总时间作为第一关键字，总价格作为第二关键字，第一辆车的`Train ID`作为第三关键字，第二辆车`Train ID`作为第四关键字。
+      * 若`(-p cost)` 则 总价格作为第一关键字，总时间作为第二关键字，第一辆车的`Train ID` 作为第三关键字，第二辆车`Train ID`作为第四关键字。
+  
+    保证任意两种方案关键字均不同。
+    请注意：这里的日期是列车从`-s`出发的日期，不是从列车始发站出发的日期。
 
   - 返回值
 
@@ -429,7 +436,7 @@
     
     用户`-u`(`<username>`)购买：车次`-i`(`<trainID>`)，日期为`-d`，从站`-f`到站`-t`的车票`-n`张。
     
-    `-q`可选`false`或`true`，若为`true`，表明在**余票不足**的情况下愿意接受候补购票，当有余票时**立即**视为此用户购买了车票，且保证购买的车票的数量大于0。请注意：这里的日期是列车从`-s`出发的日期，不是从列车始发站出发的日期。
+    `-q`可选`false`或`true`，若为`true`，表明在**余票不足**的情况下愿意接受候补购票，当有余票时**立即**视为此用户购买了车票，且保证购买的车票的数量大于0。请注意：这里的日期是列车从`-f`出发的日期，不是从列车始发站出发的日期。
     
     权限要求：`-u`已登录，且购买的车次必须已经被`release`。
 
@@ -447,11 +454,11 @@
   
     `>[671] buy_ticket -u Texas -i HAPPY_TRAIN -d 08-17 -n 800 -f 中院 -t 下院`
   
-    `411200`
+    `[671] 411200`
   
     `>[672] buy_ticket -u Lappland -i HAPPY_TRAIN -d 08-16 -n 500 -f 上院 -t 下院 -q true`
   
-    `queue`
+    `[672] queue`
     
   - 样例解释
   
@@ -497,7 +504,7 @@
 
     `>[673] query_order -u Lappland`
 
-    `1`
+    `[673] 1`
 
     `[pending] HAPPY_TRAIN 上院 08-17 05:24 -> 下院 08-17 15:24 628 500`
 
@@ -541,13 +548,13 @@
   
     `>[19260817] rollback -t 19260816`
     
-    `0`
+    `[19260817] 0`
 
   - 样例2：
   
     `>[19260817] rollback -t 20220222`
     
-    `-1`
+    `[19260817] -1`
     
   - 样例3:
     
@@ -572,18 +579,63 @@
     输出：
     
     ```
-    0
-    0
-    I_am_the_admin RainyMemory memo@rainymemory.net 10
-    0
-    0
-    Lappland 拉普兰德 lappy@siracusa.com 7
-    Texas 德克萨斯 texas@siracusa.com 7
-    0
-    I_am_the_admin RainyMemory memo@rainymemory.net 10
-    Lappland 拉普兰德 lappy@siracusa.com 7
-    -1
-    bye
+    [5] 0
+    [10] 0
+    [15] I_am_the_admin RainyMemory memo@rainymemory.net 10
+    [20] 0
+    [25] 0
+    [30] Lappland 拉普兰德 lappy@siracusa.com 7
+    [35] Texas 德克萨斯 texas@siracusa.com 7
+    [40] 0
+    [45] 0
+    [50] I_am_the_admin RainyMemory memo@rainymemory.net 10
+    [55] Lappland 拉普兰德 lappy@siracusa.com 7
+    [60] -1
+    [65] bye
+    ```
+  - 样例4：
+
+    输入：
+    ```
+    [5] add_user -c cur -u I_am_the_admin -p qwqq -n RainyMemory -m memo@rainymemory.net -g 10
+    [10] login -u I_am_the_admin -p qwqq
+    [15] query_profile -c I_am_the_admin -u I_am_the_admin
+    [20] add_user -c I_am_the_admin -u Lappland -p texas -n 拉普兰德 -m lappy@siracusa.com -g 7
+    [25] add_user -c I_am_the_admin -u Texas -p lappland -n 德克萨斯 -m texas@siracusa.com -g 7
+    [30] query_profile -c I_am_the_admin -u Lappland
+    [35] query_profile -c I_am_the_admin -u Texas
+    [40] rollback -t 23
+    [41] login -u I_am_the_admin -p qwqq
+    [45] query_profile -c I_am_the_admin -u Lappland
+    [50] query_profile -c I_am_the_admin -u Texas
+    [51] rollback -t 34
+    [52] login -u I_am_the_admin -p qwqq
+    [53] query_profile -c I_am_the_admin -u I_am_the_admin
+    [55] query_profile -c I_am_the_admin -u Lappland
+    [60] query_profile -c I_am_the_admin -u Texas
+    [65] exit
+    ```
+
+    输出：
+
+    ```
+    [5] 0
+    [10] 0
+    [15] I_am_the_admin RainyMemory memo@rainymemory.net 10
+    [20] 0
+    [25] 0
+    [30] Lappland 拉普兰德 lappy@siracusa.com 7
+    [35] Texas 德克萨斯 texas@siracusa.com 7
+    [40] 0
+    [41] 0
+    [45] Lappland 拉普兰德 lappy@siracusa.com 7
+    [50] -1
+    [51] 0
+    [52] 0
+    [53] I_am_the_admin RainyMemory memo@rainymemory.net 10
+    [55] Lappland 拉普兰德 lappy@siracusa.com 7
+    [60] -1
+    [65] bye
     ```
 
 ##### [R] `clean`
