@@ -1,0 +1,55 @@
+[8003] query_profile -c Blaze -u Ansel
+[8006] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[8013] query_profile -c Estelle -u Gravel -p xbKiCVPITnMyC -g 3
+[8020] query_profile -c Deepcolor -u Leizi
+[8030] query_profile -c Manticore -u Greyy -p UTiWNyneIumyLnN -g 3
+[8032] login -u Bison -p pfbyYhVsJnozrzOJzKldPdWQA
+[8034] refund_ticket -u Lappland -n 4
+[8041] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[8047] query_profile -c NoirCorne -u ProjeKTRed
+[8053] query_profile -c Chen -u Nearl
+[8061] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[8066] add_train -i TvdYtAX -n 2 -m 28458 -s 浙江大学|温州 -p 68527 -x 05:15 -t 8 -o _ -d 08-02|08-07 -y d
+[8073] query_profile -c Zima -u Franka
+[8083] buy_ticket -u Grani -i TvdYtAX -d 06-22 -n 4658 -f 上海交通大学 -t 温州
+[8088] query_profile -c Zima -u Skyfire
+[8091] login -u Provence -p dKmUwiIcHQvErLDpYtRMImwtb
+[8098] query_profile -c Glaucus -u Nightmare
+[8100] query_ticket -s 上海交通大学 -t 浙江 -d 07-20 -p cost
+[8107] query_profile -c Scavenger -u Rope
+[8110] query_profile -c Lappland -u Catapult -p VAGsAuonetsvPUMYpSVGgr -g 0
+[8116] query_ticket -s 浙江 -t 北京 -d 06-22 -p cost
+[8122] buy_ticket -u Pramanix -i TvdYtAX -d 06-14 -n 915 -f 浙江大学 -t 上海
+[8131] query_profile -c Durin -u Angelina
+[8139] buy_ticket -u Eyjafjalla -i TvdYtAX -d 06-24 -n 2408 -f 北京 -t 浙江
+[8149] logout -u Bison
+[8152] query_order -u Myrrh
+[8161] buy_ticket -u Nightingale -i TvdYtAX -d 06-24 -n 802 -f 上海 -t 浙江大学
+[8164] query_transfer -s 浙江大学 -t 浙江 -d 07-08 -p cost
+[8166] query_profile -c Skadi -u Gummy
+[8170] query_profile -c Cutter -u Provence -p TrPCxGmgaHPoymh -g 2
+[8171] buy_ticket -u Earthspirit -i TvdYtAX -d 07-22 -n 1620 -f 北京 -t 上海交通大学
+[8176] buy_ticket -u Deepcolor -i TvdYtAX -d 06-16 -n 4185 -f 北京 -t 浙江大学
+[8181] query_ticket -s 浙江 -t 北京 -d 06-18 -p cost
+[8183] query_profile -c Phantom -u Provence -p FdkbwJKqeGPGBnIHecJEoDUStQYEI -g 2
+[8184] query_ticket -s 浙江大学 -t 上海 -d 07-08 -p time
+[8188] buy_ticket -u Ambriel -i TvdYtAX -d 06-20 -n 3375 -f 上海交通大学 -t 北京
+[8191] login -u Gravel -p kq
+[8194] query_order -u Reed
+[8195] query_profile -c Hung -u Bibeak
+[8201] query_ticket -s 浙江大学 -t 温州 -d 08-06 -p time
+[8205] query_order -u Gummy
+[8208] buy_ticket -u Myrrh -i TvdYtAX -d 07-13 -n 4344 -f 上海交通大学 -t 北京
+[8211] query_profile -c Estelle -u Zima
+[8215] query_order -u Bibeak
+[8221] query_order -u Breeze
+[8227] query_ticket -s 浙江 -t 浙江大学 -d 06-22 -p time
+[8230] query_ticket -s 浙江 -t 北京 -d 07-11 -p time
+[8240] query_train -i TvdYtAX -d 07-09
+[8246] query_profile -c Savage -u Sesa -p NjfCpSZoliYQUcznywAtd -g 8
+[8252] buy_ticket -u Nightingale -i TvdYtAX -d 06-12 -n 4749 -f 上海交通大学 -t 北京
+[8260] release_train -i TvdYtAX
+[8264] query_order -u Durnar
+[8272] query_profile -c Weedy -u Grani -p DDRuHQiIyFReapSifesqMPbCH -g 4
+[8274] buy_ticket -u Orchid -i TvdYtAX -d 08-03 -n 592 -f 浙江 -t 温州
+[8280] exit

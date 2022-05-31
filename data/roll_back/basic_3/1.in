@@ -1,0 +1,578 @@
+[9] add_user -c cur -u I_am_the_admin -n 奥斯卡 -p awsl -m foo@bar.com -g 10
+[16] login -p awsl -u I_am_the_admin
+[24] query_profile -c I_am_the_admin -u I_am_the_admin
+[30] add_user -n 香草 -g 7 -c I_am_the_admin -p ycW5p8Sabj8nIL473P -m MANIFESTO.OF@THE.COMMUNIST -u Vanilla
+[32] login -p ycW5p8Sabj8nIL473P -u Vanilla
+[41] add_user -g 4 -u Popukar -n 泡普卡 -c Vanilla -m PARTY.A.spectre@is.haunting -p 4CM84xIJfi
+[49] login -u Popukar -p 4CM84xIJfi
+[55] add_user -m Europethe.spectre@of.Communism -u Beagle -g 4 -n 米格鲁 -c Vanilla -p rGWOgtBBfK34
+[63] login -p rGWOgtBBfK34 -u Beagle
+[65] add_user -m All.the.Powers@of.old -p JTrkccRWae -c Vanilla -g 4 -u Blaze -n 煌煌
+[75] login -p JTrkccRWae -u Blaze
+[82] add_user -p j4iZ04lsGIaQRq -u Greyy -g 4 -n 格雷伊 -m Europe.have@entered.into -c Vanilla
+[92] login -p j4iZ04lsGIaQRq -u Greyy
+[101] login -u Popukar -p 4CM84xIJfi
+[107] add_user -p P27Aav4lsk58 -c Vanilla -g 5 -n 深海色 -u Deepcolor -m a.holy.alliance@to.exorcise
+[111] login -p P27Aav4lsk58 -u Deepcolor
+[120] query_profile -c Deepcolor -u Greyy
+[122] query_profile -u Blaze -c Deepcolor
+[129] query_profile -c Vanilla -u Greyy
+[131] add_user -m this.spectre@Pope.and -u Leizi -n 惊蛰 -p KXo1K4srHxo_ -c Popukar -g 1
+[133] login -u Leizi -p KXo1K4srHxo_
+[135] logout -u Vanilla
+[141] modify_profile -g 4 -c Deepcolor -p sg-gdKXAbRnohXR -u Greyy -m Czar.Metternich@and.Guizot
+[142] add_user -g 2 -n 槐琥 -p lrv4JHJ64_5NLKZG -m French.Radicals@and.German -c Popukar -u WaaiFu
+[144] login -u WaaiFu -p lrv4JHJ64_5NLKZG
+[148] query_profile -c Deepcolor -u Beagle
+[149] add_user -n 夜魔 -c Popukar -g 3 -u Nightmare -p PhNi0RMC2darlqz -m policespies@Where.is
+[153] login -u Nightmare -p PhNi0RMC2darlqz
+[156] login -u Nightmare -p PhNi0RMC2darlqz
+[164] add_user -m the.party.in@opposition.that -n 巡林者 -p VOiSsXy55aK2h -c Deepcolor -g 3 -u Rangers
+[171] login -p VOiSsXy55aK2h -u Rangers
+[174] modify_profile -c Deepcolor -u Beagle -n 米格
+[184] query_profile -u Nightmare -c Deepcolor
+[192] query_profile -c Rangers -u Leizi
+[193] add_user -g 2 -n 杰西卡 -u Jessica -m has.not.been@decried.as -c Greyy -p VfwQjPwxrpH$27BeVAtU
+[202] login -u Jessica -p yaZTcQA_2Vmj3Qs2R
+[211] query_profile -u Rangers -c Beagle
+[219] query_profile -u Beagle -c Deepcolor
+[228] query_profile -u Jessica -c Greyy
+[232] add_user -u Hibiscus -c WaaiFu -p B2oYwGIzzoJSYyYqUOAg -m Communistic@by.its -g 1 -n 芙蓉
+[242] login -p B2oYwGIzzoJSYyYqUOAg -u Hibiscus
+[247] query_profile -c Beagle -u WaaiFu
+[253] add_user -u Firewatch -g 2 -c Greyy -n 守林人 -m opponents.in@power.Where -p rJiKiMh5JXpdbUN9B
+[258] login -u Firewatch -p rJiKiMh5JXpdbUN9B
+[264] add_user -m is.the.Opposition@that.has -n 黑黑 -u Schwarz -p HplynwGOEqIp_U5n_ -c Beagle -g 1
+[268] login -p HplynwGOEqIp_U5n_ -u Schwarz
+[269] add_user -u Manticore -g 2 -m not.hurled@back.the -n 狮蝎 -p Q$wtek6$G8R1mmSW18 -c Popukar
+[271] login -u Manticore -p Q$wtek6$G8R1mmSW18
+[277] add_user -m branding.reproach@of.Communism -n 布洛卡 -g 1 -c Manticore -u Broca -p 3Hg7ECLDWxCGnQF
+[280] login -p 3Hg7ECLDWxCGnQF -u Broca
+[285] add_user -m against.the@more.advanced -g 2 -c Greyy -n 艾雅法拉 -p ToFblh5nwJzH5rlzq5 -u Eyjafjalla
+[287] login -p ToFblh5nwJzH5rlzq5 -u Eyjafjalla
+[292] add_user -g 1 -n 送葬人 -m opposition@parties.as -p BvQil_dW-eFpS -u Executor -c Nightmare
+[299] login -u Executor -p BvQil_dW-eFpS
+[300] query_profile -u Nightmare -c Blaze
+[318] query_train -i pks -d 08-13
+[321] query_order -u WaaiFu
+[326] query_profile -c I_am_the_admin -u WaaiFu
+[328] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[333] logout -u WaaiFu
+[339] query_profile -c Beagle -u Popukar
+[340] query_profile -c Manticore -u Hibiscus
+[345] query_profile -c Vanilla -u Rangers
+[353] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[354] query_profile -c Hibiscus -u Schwarz -p iiUDGykQMCxmynuD -g 3
+[361] query_profile -c Leizi -u Rangers
+[368] logout -u Vanilla
+[371] query_profile -c Hibiscus -u Broca
+[375] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[383] query_profile -c Nightmare -u Blaze -p cagfLBSvujUbbtjmBEKKAM -g 4
+[387] query_profile -c Vanilla -u Schwarz
+[390] delete_train -i pks
+[392] query_profile -c Blaze -u Deepcolor
+[401] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[405] add_user -c Vanilla -u otiHK -p t -n 錘劆湾 -m VsslBffZXuSSEokGcU -g 1
+[413] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[414] query_profile -c I_am_the_admin -u Greyy
+[419] refund_ticket -u Blaze -n 4
+[425] query_profile -c Firewatch -u Schwarz
+[435] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[445] add_user -c Jessica -u C -p ZnIQcHJOuCFTRZeBOjZg -n 壣痁廅 -m HSZSkTvfMQGZizdLMAovsft -g 1
+[448] login -u WaaiFu -p lrv4JHJ64_5NLKZG
+[450] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[455] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[465] query_profile -c Firewatch -u Eyjafjalla
+[466] query_profile -c Blaze -u Deepcolor
+[467] query_train -i pks -d 08-13
+[475] logout -u Deepcolor
+[484] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[494] query_profile -c Firewatch -u Jessica -p XdhOBgrxkclKPNpEPxnI -g 2
+[501] query_profile -c Deepcolor -u Vanilla
+[509] query_profile -c Blaze -u Nightmare
+[517] query_profile -c Beagle -u Manticore
+[519] query_profile -c Nightmare -u Executor -p FwEwOolgbf -g 7
+[524] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[530] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[531] query_order -u I_am_the_admin
+[534] query_profile -c Blaze -u Firewatch
+[537] query_profile -c Rangers -u Deepcolor
+[547] query_profile -c Jessica -u Vanilla
+[550] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[555] query_profile -c Eyjafjalla -u Rangers
+[559] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[566] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[573] login -u I_am_the_admin -p TKzqKhAkyRYIQOjjUWWCCpmVwwPXv
+[577] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[582] add_user -c Blaze -u XoKFMhDidvhiJyjtpJR -p mTWvWAuqZ -n 疕醢朠 -m EFmKVzAtXuBxyunvvoGJSKkwhklPBU -g 6
+[591] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[592] logout -u Leizi
+[596] query_profile -c Nightmare -u Executor
+[605] logout -u Manticore
+[611] query_profile -c Hibiscus -u Popukar
+[613] query_profile -c Manticore -u Greyy
+[622] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[625] add_train -i usmmcloiHA -n 3 -m 10939 -s 浙江|北京|温州 -p 7498|88998 -x 02:48 -t 10|10 -o 7 -d 06-22|07-26 -y O
+[631] query_train -i usmmcloiHA -d 07-28
+[640] query_profile -c Schwarz -u I_am_the_admin
+[647] query_profile -c Blaze -u WaaiFu
+[657] login -u Deepcolor -p P27Aav4lsk58
+[666] buy_ticket -u Executor -i usmmcloiHA -d 06-05 -n 4831 -f 温州 -t 浙江大学
+[673] buy_ticket -u Beagle -i usmmcloiHA -d 08-15 -n 2577 -f 浙江 -t 上海交通大学
+[677] query_profile -c Popukar -u Executor
+[686] buy_ticket -u I_am_the_admin -i usmmcloiHA -d 08-11 -n 1036 -f 上海交通大学 -t 温州
+[691] query_ticket -s 浙江大学 -t 温州 -d 07-06 -p cost
+[694] buy_ticket -u WaaiFu -i usmmcloiHA -d 08-27 -n 1587 -f 温州 -t 上海交通大学
+[700] query_profile -c Leizi -u Eyjafjalla -p MFXeUAIGzZcTICcpQKgRaFe -g 2
+[704] logout -u Vanilla
+[713] query_ticket -s 上海交通大学 -t 上海 -d 08-26 -p cost
+[714] buy_ticket -u Vanilla -i usmmcloiHA -d 08-07 -n 1095 -f 浙江大学 -t 温州
+[717] login -u I_am_the_admin -p CYNVQeskPKfCUYeaCoEDxKMFkchS
+[723] add_train -i mNRrui -n 3 -m 16690 -s 浙江|上海|温州 -p 26434|41865 -x 18:28 -t 10|9 -o 12 -d 06-30|07-25 -y t
+[733] refund_ticket -u Eyjafjalla -n 5
+[738] query_ticket -s 上海交通大学 -t 北京 -d 07-13 -p time
+[740] add_user -c Nightmare -u vLWoIIi -p VpphNms -n 貉珹憤 -m LSIUKvFWKX -g 1
+[743] buy_ticket -u Leizi -i usmmcloiHA -d 06-07 -n 2503 -f 浙江 -t 浙江大学
+[753] query_ticket -s 北京 -t 上海交通大学 -d 08-29 -p time
+[763] logout -u Rangers
+[766] query_ticket -s 浙江大学 -t 温州 -d 07-16 -p time
+[775] logout -u Greyy
+[783] query_order -u Popukar
+[787] query_ticket -s 浙江大学 -t 北京 -d 08-23 -p time
+[795] query_ticket -s 浙江大学 -t 浙江 -d 08-21 -p time
+[797] buy_ticket -u Beagle -i mNRrui -d 06-28 -n 160 -f 北京 -t 浙江
+[805] buy_ticket -u Popukar -i usmmcloiHA -d 06-11 -n 4784 -f 浙江大学 -t 浙江
+[808] query_profile -c Vanilla -u Blaze
+[814] query_profile -c Vanilla -u Beagle
+[815] logout -u Deepcolor
+[821] query_profile -c Popukar -u Rangers
+[829] query_ticket -s 北京 -t 温州 -d 06-23 -p time
+[831] query_ticket -s 上海交通大学 -t 浙江大学 -d 07-04 -p time
+[835] query_profile -c Beagle -u Greyy
+[845] buy_ticket -u Executor -i mNRrui -d 08-03 -n 625 -f 浙江 -t 北京
+[849] buy_ticket -u WaaiFu -i usmmcloiHA -d 07-27 -n 2943 -f 北京 -t 浙江大学
+[857] login -u vLWoIIi -p VpphNms
+[859] buy_ticket -u Rangers -i usmmcloiHA -d 08-01 -n 3605 -f 上海 -t 上海交通大学
+[864] query_ticket -s 浙江 -t 上海交通大学 -d 06-02 -p time
+[871] query_train -i usmmcloiHA -d 08-19
+[876] delete_train -i usmmcloiHA
+[885] query_ticket -s 浙江大学 -t 上海 -d 06-26 -p cost
+[887] query_train -i usmmcloiHA -d 08-01
+[897] query_ticket -s 浙江 -t 温州 -d 06-03 -p time
+[900] query_ticket -s 温州 -t 浙江 -d 08-30 -p time
+[910] buy_ticket -u Firewatch -i mNRrui -d 06-28 -n 731 -f 上海交通大学 -t 上海
+[915] refund_ticket -u vLWoIIi -n 1
+[924] query_profile -c vLWoIIi -u Eyjafjalla
+[933] query_ticket -s 上海交通大学 -t 浙江大学 -d 06-10 -p cost
+[943] query_profile -c Executor -u Greyy
+[947] refund_ticket -u Broca -n 4
+[957] buy_ticket -u Blaze -i usmmcloiHA -d 07-03 -n 935 -f 浙江大学 -t 上海
+[958] query_profile -c Blaze -u Beagle
+[967] query_ticket -s 上海交通大学 -t 浙江 -d 06-07 -p cost
+[968] query_train -i mNRrui -d 06-22
+[975] buy_ticket -u Greyy -i usmmcloiHA -d 07-07 -n 1786 -f 上海交通大学 -t 浙江大学
+[980] buy_ticket -u Popukar -i usmmcloiHA -d 06-21 -n 287 -f 上海交通大学 -t 浙江
+[990] buy_ticket -u Vanilla -i usmmcloiHA -d 07-30 -n 2689 -f 上海交通大学 -t 北京
+[996] refund_ticket -u Eyjafjalla -n 5
+[1001] add_train -i taHKMXeiSiTnsKeXRp -n 2 -m 42521 -s 上海交通大学|上海 -p 51883 -x 09:19 -t 13 -o _ -d 06-13|07-01 -y P
+[1004] query_profile -c Executor -u WaaiFu -p QCqHGNeVftWRldKjUn -g 6
+[1012] query_ticket -s 上海 -t 浙江大学 -d 06-20 -p cost
+[1018] refund_ticket -u Popukar -n 3
+[1023] query_profile -c Executor -u Leizi -p ICroeikOsonEofzyQ -g 8
+[1024] login -u I_am_the_admin -p awsl
+[1032] buy_ticket -u Greyy -i taHKMXeiSiTnsKeXRp -d 07-16 -n 3764 -f 浙江 -t 温州
+[1037] query_ticket -s 北京 -t 上海 -d 06-14 -p cost
+[1044] query_ticket -s 浙江大学 -t 北京 -d 06-20 -p time
+[1054] query_ticket -s 浙江大学 -t 北京 -d 06-03 -p cost
+[1060] query_ticket -s 浙江 -t 上海交通大学 -d 06-06 -p cost
+[1061] buy_ticket -u Blaze -i usmmcloiHA -d 08-06 -n 1820 -f 浙江大学 -t 上海交通大学
+[1068] query_ticket -s 上海交通大学 -t 上海 -d 07-24 -p time
+[1072] add_user -c Rangers -u rQbzTDuuByCdeGb -p IwNtHsrdXzZoXtfWx -n 膵漳遣 -m JWMtepZkP -g 0
+[1073] release_train -i taHKMXeiSiTnsKeXRp
+[1079] query_profile -c Executor -u Broca -p GeyxmwdFiSPq -g 4
+[1089] add_user -c Greyy -u UXShiyMLOHM -p IRSLwNmJSQvDVN -n 嗌积躎 -m aGSGUUMqnVptsncbQDiS -g 6
+[1094] query_order -u Hibiscus
+[1101] query_profile -c Greyy -u Hibiscus
+[1110] query_profile -c Popukar -u Schwarz
+[1120] query_transfer -s 浙江大学 -t 北京 -d 08-27 -p cost
+[1122] query_profile -c Firewatch -u Schwarz
+[1125] query_profile -c Nightmare -u Jessica
+[1127] buy_ticket -u Jessica -i usmmcloiHA -d 08-27 -n 1765 -f 浙江大学 -t 上海
+[1132] query_profile -c Beagle -u Eyjafjalla
+[1142] query_transfer -s 上海 -t 温州 -d 07-25 -p cost
+[1144] add_user -c Manticore -u fVJuTlJWDI -p saEoylyWmIZLFlMMCrgNogfIKzAOf -n 揁壡萹 -m zeID -g 6
+[1151] query_profile -c Greyy -u Greyy
+[1152] refund_ticket -u Jessica -n 3
+[1158] query_profile -c Manticore -u Greyy
+[1159] query_ticket -s 浙江大学 -t 上海交通大学 -d 06-30 -p cost
+[1161] query_profile -c Beagle -u Nightmare
+[1165] query_profile -c Broca -u Vanilla
+[1175] login -u Popukar -p 4CM84xIJfi
+[1182] query_profile -c Popukar -u Popukar -p VUqbqpuKESZkpPYCLlKFOZYqj -g 4
+[1186] refund_ticket -u Hibiscus -n 3
+[1196] login -u Popukar -p WYwRVnKTJjUi
+[1200] logout -u Hibiscus
+[1204] login -u Vanilla -p qvRPWCbYwGJ
+[1207] query_profile -c Schwarz -u Vanilla
+[1210] query_profile -c Broca -u Beagle
+[1219] query_order -u Blaze
+[1229] query_order -u Greyy
+[1236] query_order -u Schwarz
+[1242] buy_ticket -u WaaiFu -i usmmcloiHA -d 06-07 -n 2944 -f 浙江大学 -t 温州
+[1245] login -u Hibiscus -p LndQD
+[1248] logout -u Rangers
+[1253] buy_ticket -u Rangers -i usmmcloiHA -d 07-13 -n 1698 -f 浙江大学 -t 北京
+[1256] logout -u Broca
+[1265] logout -u Vanilla
+[1274] query_ticket -s 北京 -t 上海交通大学 -d 07-20 -p time
+[1284] query_ticket -s 北京 -t 温州 -d 08-27 -p cost
+[1291] query_profile -c Deepcolor -u Executor
+[1295] add_train -i IiQJX -n 2 -m 83260 -s 浙江大学|浙江 -p 59630 -x 01:06 -t 11 -o _ -d 06-29|07-05 -y f
+[1304] login -u Greyy -p sg-gdKXAbRnohXR
+[1306] buy_ticket -u Beagle -i taHKMXeiSiTnsKeXRp -d 07-12 -n 1610 -f 浙江 -t 浙江大学
+[1311] buy_ticket -u Beagle -i taHKMXeiSiTnsKeXRp -d 08-13 -n 3180 -f 上海交通大学 -t 温州
+[1321] buy_ticket -u Deepcolor -i mNRrui -d 06-15 -n 1350 -f 浙江 -t 温州
+[1330] query_profile -c vLWoIIi -u vLWoIIi
+[1334] query_profile -c Popukar -u Beagle
+[1342] query_profile -c Jessica -u Blaze
+[1348] login -u Executor -p MTTzKShSfAKHrZnTRFeaqIDo
+[1352] query_order -u Executor
+[1357] query_profile -c Rangers -u Deepcolor
+[1358] logout -u WaaiFu
+[1362] query_profile -c I_am_the_admin -u Eyjafjalla
+[1370] refund_ticket -u Broca -n 2
+[1376] query_profile -c Beagle -u Jessica
+[1381] query_profile -c vLWoIIi -u Rangers
+[1391] logout -u Blaze
+[1393] query_order -u Schwarz
+[1403] delete_train -i mNRrui
+[1410] query_ticket -s 上海 -t 浙江 -d 08-25 -p time
+[1420] query_train -i usmmcloiHA -d 08-04
+[1425] buy_ticket -u Vanilla -i usmmcloiHA -d 08-01 -n 248 -f 浙江 -t 上海交通大学
+[1426] query_profile -c Blaze -u Vanilla
+[1433] query_profile -c Popukar -u Rangers
+[1441] buy_ticket -u Schwarz -i IiQJX -d 06-27 -n 4003 -f 浙江大学 -t 温州
+[1446] release_train -i IiQJX
+[1455] query_transfer -s 北京 -t 浙江大学 -d 07-19 -p cost
+[1458] buy_ticket -u Rangers -i usmmcloiHA -d 08-12 -n 4325 -f 温州 -t 浙江大学
+[1459] rollback -t 310
+[1465] query_order -u Broca
+[1473] query_order -u WaaiFu
+[1479] query_profile -c Beagle -u Firewatch
+[1482] query_profile -c vLWoIIi -u Jessica
+[1484] query_profile -c Rangers -u Beagle
+[1487] query_order -u Executor
+[1494] query_ticket -s 上海 -t 温州 -d 06-14 -p time
+[1496] query_train -i IiQJX -d 06-06
+[1501] query_profile -c Executor -u vLWoIIi
+[1506] query_profile -c vLWoIIi -u I_am_the_admin
+[1516] query_train -i mNRrui -d 08-14
+[1523] query_profile -c Schwarz -u I_am_the_admin
+[1531] query_profile -c WaaiFu -u Jessica
+[1540] query_profile -c WaaiFu -u Firewatch
+[1543] query_ticket -s 温州 -t 浙江大学 -d 06-21 -p cost
+[1548] query_ticket -s 浙江大学 -t 北京 -d 08-23 -p time
+[1550] query_profile -c WaaiFu -u Firewatch
+[1555] query_ticket -s 上海 -t 浙江 -d 06-17 -p cost
+[1559] query_order -u Eyjafjalla
+[1567] login -u I_am_the_admin -p awsl
+[1569] login -u Popukar -p 4CM84xIJfi
+[1578] login -u Beagle -p rGWOgtBBfK34
+[1581] login -u Blaze -p JTrkccRWae
+[1585] login -u Greyy -p sg-gdKXAbRnohXR
+[1592] login -u Deepcolor -p P27Aav4lsk58
+[1597] login -u Leizi -p KXo1K4srHxo_
+[1607] login -u WaaiFu -p lrv4JHJ64_5NLKZG
+[1611] login -u Nightmare -p PhNi0RMC2darlqz
+[1616] login -u Rangers -p VOiSsXy55aK2h
+[1618] login -u Hibiscus -p B2oYwGIzzoJSYyYqUOAg
+[1621] login -u Firewatch -p rJiKiMh5JXpdbUN9B
+[1623] login -u Schwarz -p HplynwGOEqIp_U5n_
+[1628] login -u Manticore -p Q$wtek6$G8R1mmSW18
+[1638] login -u Broca -p 3Hg7ECLDWxCGnQF
+[1645] login -u Eyjafjalla -p ToFblh5nwJzH5rlzq5
+[1653] login -u Executor -p BvQil_dW-eFpS
+[1656] add_user -g 1 -p dfkOGYlGyX!EwX -m well.as.against@its.reactionar -n 雷蛇 -c Manticore -u Liskarm
+[1664] login -u Liskarm -p dfkOGYlGyX!EwX
+[1665] add_user -m adversaries@Two.things -p e4QuQ4tkey46 -c Eyjafjalla -u Durnar -g 1 -n 坚雷
+[1670] login -u Durnar -p e4QuQ4tkey46
+[1679] query_profile -u Broca -c WaaiFu
+[1688] query_profile -c I_am_the_admin -u Manticore
+[1692] add_user -c Blaze -m result.from@this.fact -n 夜烟 -u Haze -p 6O6imfDEfJK -g 1
+[1702] login -p 6O6imfDEfJK -u Haze
+[1711] query_profile -u Beagle -c Deepcolor
+[1712] add_user -n 地灵 -p 1LVd4QImYf0o0l -c Blaze -g 3 -m I.Communism@is.already -u Earthspirit
+[1713] login -u Earthspirit -p 1LVd4QImYf0o0l
+[1717] add_user -c Beagle -p mQ3Gd2e7TpCZ -g 3 -m acknowledged@by.all -n 伊桑 -u Ethan
+[1725] login -p mQ3Gd2e7TpCZ -u Ethan
+[1734] login -p law_Is$1s6qaB -u Liskarm
+[1739] add_user -m European.Powers@to.be -g 3 -p znd_LNzJzS -u Meteorite -n 陨星 -c Beagle
+[1748] login -p znd_LNzJzS -u Meteorite
+[1749] query_profile -u Greyy -c Deepcolor
+[1751] query_profile -u Hibiscus -c Firewatch
+[1753] logout -u Firewatch
+[1758] add_user -u Hung -p Quut9sJJ3i4NK -g 1 -c Eyjafjalla -n 吽吽 -m itself.a.Power@II.It
+[1768] login -p Quut9sJJ3i4NK -u Hung
+[1769] add_user -p o1GRXasa5aH7 -m is.high.time@that.Communists -c Beagle -u Hoshiguma -n 星熊 -g 2
+[1779] login -u Hoshiguma -p o1GRXasa5aH7
+[1780] add_user -u Plume -m should.openly@in.the -p H$FzPAuXl-t -c Blaze -g 2 -n 翎羽
+[1782] login -u Plume -p H$FzPAuXl-t
+[1792] query_profile -c Popukar -u Broca
+[1795] query_profile -c Earthspirit -u Manticore
+[1797] add_user -m face.of.the@whole.world -g 1 -p l3XJada!-p-Lth22 -n 普罗旺斯 -u Provence -c Meteorite
+[1798] login -u Provence -p l3XJada!-p-Lth22
+[1800] query_profile -u Broca -c Earthspirit
+[1809] query_profile -c Beagle -u Leizi
+[1819] add_user -n 讯使 -u Courier -c Ethan -g 1 -m publish.their@views.their -p 1NZwyUbFFlnQ
+[1827] login -p 1NZwyUbFFlnQ -u Courier
+[1828] query_profile -u Nightmare -c Blaze
+[1835] add_user -u Frostleaf -g 1 -p yOvwgUCGSB_wlc1p -n 霜叶 -c Eyjafjalla -m aims.their@tendencies.and
+[1845] login -p yOvwgUCGSB_wlc1p -u Frostleaf
+[1850] add_user -g 3 -m meet.this.nursery@tale.of -p HadOVBbU$1Y-EGc -c Deepcolor -n 夜刀 -u Yato
+[1858] login -u Yato -p HadOVBbU$1Y-EGc
+[1865] add_user -u Shining -n 闪灵 -g 2 -p SCFsYpnuNh -m the.Spectre@of.Communism -c Nightmare
+[1871] login -p 7ZtZfHE$kY2nrc0uH -u Shining
+[1873] modify_profile -c Manticore -g 1 -u Schwarz -p lqNXcY_4Vg$-zH2e
+[1877] add_user -p NGFafcwK$H -n 斑点 -c Eyjafjalla -m with.a.Manifesto@of.the -u Spot -g 1
+[1879] login -p NGFafcwK$H -u Spot
+[1885] login -p rJiKiMh5JXpdbUN9B -u Firewatch
+[1890] add_user -m party.itself@To.this -n 清流 -u Purestream -p 4TQM3ZodLmHVkDEJrF -g 1 -c WaaiFu
+[1897] login -p 4TQM3ZodLmHVkDEJrF -u Purestream
+[1903] query_profile -u Broca -c Eyjafjalla
+[1910] add_user -p EkWcp7WM1GaRc3 -n 断罪者 -m end.Communists@of.various -g 2 -c Meteorite -u Conviction
+[1913] login -p EkWcp7WM1GaRc3 -u Conviction
+[1921] add_user -g 2 -p 1OEpxF5OmFJ -n 炎客 -m nationalities@have.assembled -u Flamebringer -c Greyy
+[1927] login -u Flamebringer -p 1OEpxF5OmFJ
+[1937] add_user -u Cliffheart -c Plume -p ksA2aN--oIZ4 -m in.London.and@sketched.the -g 1 -n 崖心
+[1941] login -u Cliffheart -p ksA2aN--oIZ4
+[1945] add_user -c Earthspirit -p B2tcs$qkHW -u Bagpipe -g 2 -n 风笛 -m following.Manifesto@to.be
+[1954] login -p B2tcs$qkHW -u Bagpipe
+[1959] add_user -c Manticore -p -CJ7TtZfHe6vKn!CVM -m published.in@the.English -u Skyfire -n 天火 -g 1
+[1966] login -u Skyfire -p -CJ7TtZfHe6vKn!CVM
+[1971] logout -u Provence
+[1972] add_user -u Croissant -p BroWRUSAQ5tdbX -c Firewatch -g 1 -m French.German@Italian.Flemish -n 可颂
+[1978] login -p BroWRUSAQ5tdbX -u Croissant
+[1986] query_profile -c Greyy -u Earthspirit
+[1993] add_user -c Deepcolor -g 3 -n 白雪 -u ShiraYuki -m and.Danish@languages.I -p U3v6JR9Xyq6
+[1997] login -p ytzpLzDp-xYsEE -u ShiraYuki
+[1999] query_profile -c Deepcolor -u Yato
+[2009] logout -u Haze
+[2024] login -u Popukar -p 4CM84xIJfi
+[2031] query_order -u Ethan
+[2033] query_profile -c Spot -u Shining -p qBmsv -g 9
+[2042] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2043] refund_ticket -u Hoshiguma -n 5
+[2051] query_order -u Executor
+[2056] add_user -c Blaze -u mhInEBFXIZlywkl -p yeoFPqlmDRsFmI -n 伨掊再 -m dsyB -g 3
+[2062] login -u WaaiFu -p pByFYupVgarzouXLpsmxlEfBjhphQ
+[2067] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2068] query_profile -c Skyfire -u Yato
+[2074] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2080] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2082] add_user -c Flamebringer -u nUQ -p oFAewNFZfh -n 祕简廮 -m YUqeAsuzPNWKudzlXrsFiAO -g 5
+[2088] query_profile -c WaaiFu -u Durnar
+[2094] login -u Haze -p uHa
+[2102] query_profile -c Durnar -u Frostleaf
+[2108] query_train -i pks -d 08-13
+[2111] query_order -u Deepcolor
+[2120] query_profile -c Cliffheart -u Popukar
+[2126] logout -u Deepcolor
+[2133] query_profile -c Greyy -u I_am_the_admin -p VMxNMqwjUdtCycWJYHMegCa -g 6
+[2143] query_profile -c Frostleaf -u Purestream
+[2151] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2160] release_train -i pks
+[2163] query_train -i pks -d 08-13
+[2165] query_transfer -s 潘开森 -t 王梓 -d 08-13
+[2167] login -u Hung -p Quut9sJJ3i4NK
+[2176] query_profile -c Blaze -u Rangers -p URrkbtAWlWHkRqNXMzJkNatIN -g 9
+[2184] query_profile -c Hung -u Spot
+[2194] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2195] query_profile -c Executor -u Ethan
+[2196] query_profile -c Hung -u Hoshiguma
+[2204] query_profile -c Leizi -u Ethan
+[2214] query_profile -c Popukar -u Deepcolor
+[2220] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2221] query_profile -c Hung -u Vanilla -p CFpnQKEjGskbWf -g 5
+[2222] query_train -i pks -d 08-13
+[2232] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2241] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2246] login -u Yato -p HadOVBbU$1Y-EGc
+[2254] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2256] query_profile -c mhInEBFXIZlywkl -u Spot
+[2257] query_ticket -s 潘开森 -t 王梓 -d 08-13
+[2259] logout -u ShiraYuki
+[2269] login -u Plume -p H$FzPAuXl-t
+[2275] login -u Blaze -p JTrkccRWae
+[2279] add_user -c Yato -u YOOUgUxKLDPEqsrQ -p jdzRPowncNLsoQuKwvWYzGXDKeJUL -n 项爦扦 -m MXTGKGMQMbxKVAKY -g 5
+[2287] query_train -i pks -d 08-13
+[2288] add_train -i eVxDkanVqfKE -n 2 -m 63773 -s 浙江大学|北京 -p 4812 -x 14:30 -t 9 -o _ -d 06-12|08-07 -y R
+[2298] refund_ticket -u Hibiscus -n 3
+[2302] release_train -i eVxDkanVqfKE
+[2310] query_profile -c Haze -u Hung
+[2311] login -u Hung -p fNjgLhhcO
+[2321] query_profile -c ShiraYuki -u Bagpipe
+[2322] logout -u Provence
+[2329] query_profile -c Rangers -u Cliffheart -p pVhHSjSMlaPCIefFcE -g 1
+[2332] logout -u Hibiscus
+[2333] buy_ticket -u I_am_the_admin -i eVxDkanVqfKE -d 07-24 -n 4875 -f 上海 -t 上海交通大学
+[2339] add_user -c Durnar -u VbBOiUpcOXGEazIv -p mfOuvipuNjPfYOVzi -n 鼼蟢疴 -m wjAmZDkxU -g 6
+[2344] query_ticket -s 上海 -t 温州 -d 08-22 -p time
+[2354] buy_ticket -u Conviction -i eVxDkanVqfKE -d 07-30 -n 3253 -f 上海交通大学 -t 浙江大学
+[2355] query_ticket -s 北京 -t 温州 -d 07-02 -p cost
+[2365] login -u Yato -p HadOVBbU$1Y-EGc
+[2368] query_ticket -s 浙江大学 -t 北京 -d 08-27 -p time
+[2371] login -u Broca -p RatJZvMmDSs
+[2372] query_profile -c Ethan -u Manticore
+[2373] query_ticket -s 温州 -t 上海交通大学 -d 07-13 -p cost
+[2383] query_ticket -s 浙江大学 -t 北京 -d 06-08 -p time
+[2393] refund_ticket -u I_am_the_admin -n 3
+[2401] buy_ticket -u Broca -i eVxDkanVqfKE -d 06-08 -n 4798 -f 温州 -t 浙江大学
+[2406] buy_ticket -u WaaiFu -i eVxDkanVqfKE -d 06-03 -n 451 -f 温州 -t 浙江
+[2416] query_profile -c Beagle -u Croissant
+[2424] query_profile -c I_am_the_admin -u Ethan
+[2433] query_profile -c mhInEBFXIZlywkl -u mhInEBFXIZlywkl
+[2448] logout -u Hoshiguma
+[2449] query_profile -c Manticore -u Croissant
+[2452] release_train -i eVxDkanVqfKE
+[2454] login -u Bagpipe -p haUNqdUioAfCFvaPqF
+[2461] logout -u Rangers
+[2464] release_train -i eVxDkanVqfKE
+[2474] query_profile -c Vanilla -u Schwarz -p jOXMY -g 4
+[2479] query_ticket -s 上海交通大学 -t 北京 -d 07-09 -p cost
+[2483] query_ticket -s 温州 -t 上海交通大学 -d 06-06 -p time
+[2487] query_order -u Plume
+[2492] query_profile -c Eyjafjalla -u Eyjafjalla
+[2497] query_profile -c Schwarz -u Meteorite
+[2504] buy_ticket -u Popukar -i eVxDkanVqfKE -d 07-13 -n 4211 -f 上海 -t 浙江大学
+[2511] query_profile -c Executor -u Courier
+[2520] query_ticket -s 温州 -t 上海交通大学 -d 08-21 -p time
+[2528] query_profile -c Schwarz -u Meteorite
+[2530] delete_train -i eVxDkanVqfKE
+[2532] query_profile -c Purestream -u Eyjafjalla
+[2537] buy_ticket -u Shining -i eVxDkanVqfKE -d 06-14 -n 3471 -f 北京 -t 浙江
+[2541] login -u Cliffheart -p pVhHSjSMlaPCIefFcE
+[2545] query_ticket -s 温州 -t 北京 -d 06-17 -p time
+[2551] refund_ticket -u Haze -n 3
+[2560] query_order -u Firewatch
+[2562] logout -u Yato
+[2567] buy_ticket -u Hibiscus -i eVxDkanVqfKE -d 07-22 -n 3454 -f 上海 -t 温州
+[2570] query_profile -c mhInEBFXIZlywkl -u Hung
+[2577] query_profile -c Manticore -u Deepcolor
+[2584] query_profile -c WaaiFu -u ShiraYuki -p ToQYDCAMzkI -g 2
+[2586] query_ticket -s 上海交通大学 -t 浙江 -d 07-18 -p cost
+[2587] query_profile -c Provence -u Flamebringer
+[2595] query_ticket -s 浙江大学 -t 上海 -d 08-01 -p time
+[2597] query_ticket -s 北京 -t 浙江大学 -d 07-20 -p time
+[2604] query_profile -c WaaiFu -u Eyjafjalla
+[2606] query_order -u Croissant
+[2614] buy_ticket -u Cliffheart -i eVxDkanVqfKE -d 08-16 -n 3173 -f 浙江 -t 北京
+[2623] query_ticket -s 上海 -t 北京 -d 06-25 -p cost
+[2626] query_order -u Yato
+[2632] add_user -c Beagle -u cjBdUCnSGWBcTjLm -p hjGXUaeqFxxYDOv -n 蝴罹槈 -m ToH -g 3
+[2638] logout -u Ethan
+[2647] query_train -i eVxDkanVqfKE -d 07-06
+[2649] add_user -c Plume -u napQoGSHgGlJYVcPG -p zuDwqJG -n 碩寂螥 -m HgdxasgSamyBitBDaeoyqhx -g 2
+[2659] query_profile -c Bagpipe -u Purestream
+[2669] query_profile -c ShiraYuki -u mhInEBFXIZlywkl
+[2674] query_order -u Popukar
+[2677] buy_ticket -u I_am_the_admin -i eVxDkanVqfKE -d 06-22 -n 93 -f 浙江 -t 温州
+[2678] login -u Liskarm -p dfkOGYlGyX!EwX
+[2682] buy_ticket -u Shining -i eVxDkanVqfKE -d 07-02 -n 1049 -f 上海交通大学 -t 上海
+[2689] query_order -u Plume
+[2694] buy_ticket -u Liskarm -i eVxDkanVqfKE -d 06-27 -n 3025 -f 浙江大学 -t 上海交通大学
+[2695] query_ticket -s 上海交通大学 -t 北京 -d 06-24 -p cost
+[2698] query_train -i eVxDkanVqfKE -d 06-01
+[2700] query_profile -c Meteorite -u Hoshiguma -p LJnljHEKFGgaZpvSPVeHdq -g 2
+[2706] query_profile -c Cliffheart -u Conviction
+[2710] buy_ticket -u Croissant -i eVxDkanVqfKE -d 07-06 -n 168 -f 浙江大学 -t 上海
+[2715] query_profile -c Plume -u Rangers
+[2723] query_train -i eVxDkanVqfKE -d 06-04
+[2728] query_order -u ShiraYuki
+[2734] buy_ticket -u Cliffheart -i eVxDkanVqfKE -d 08-17 -n 1091 -f 浙江 -t 上海交通大学
+[2737] query_ticket -s 浙江大学 -t 上海交通大学 -d 06-23 -p cost
+[2743] query_profile -c Earthspirit -u Plume -p eReINiOmxfeeoVpIBTlW -g 8
+[2745] query_profile -c Popukar -u Rangers
+[2746] buy_ticket -u Skyfire -i eVxDkanVqfKE -d 08-24 -n 4787 -f 北京 -t 浙江大学
+[2750] query_ticket -s 浙江 -t 上海交通大学 -d 06-09 -p cost
+[2755] buy_ticket -u Hoshiguma -i eVxDkanVqfKE -d 07-13 -n 4497 -f 上海 -t 上海交通大学
+[2759] query_ticket -s 上海交通大学 -t 上海 -d 07-01 -p time
+[2765] query_train -i eVxDkanVqfKE -d 08-26
+[2774] logout -u Shining
+[2782] login -u Nightmare -p xzzuGvxXAdgWMewnZ
+[2788] logout -u Haze
+[2793] query_transfer -s 上海交通大学 -t 浙江大学 -d 08-03 -p time
+[2803] query_ticket -s 上海交通大学 -t 浙江 -d 06-16 -p time
+[2806] login -u Blaze -p JTrkccRWae
+[2809] query_ticket -s 浙江 -t 北京 -d 08-06 -p cost
+[2818] logout -u Eyjafjalla
+[2825] query_ticket -s 温州 -t 上海交通大学 -d 08-02 -p cost
+[2832] add_train -i etmgBRlc -n 2 -m 85849 -s 浙江|上海 -p 81164 -x 17:24 -t 6 -o _ -d 06-11|06-19 -y B
+[2841] query_order -u Cliffheart
+[2844] add_train -i ZuCmOBDcqaDUIj -n 2 -m 31054 -s 温州|上海 -p 40358 -x 12:17 -t 13 -o _ -d 08-07|08-14 -y q
+[2848] buy_ticket -u Shining -i ZuCmOBDcqaDUIj -d 06-17 -n 1943 -f 上海交通大学 -t 浙江
+[2851] query_profile -c Meteorite -u Popukar
+[2858] query_profile -c Firewatch -u Ethan
+[2865] refund_ticket -u Hung -n 5
+[2866] query_ticket -s 浙江 -t 上海 -d 08-04 -p time
+[2871] query_profile -c Provence -u Yato
+[2878] buy_ticket -u Eyjafjalla -i ZuCmOBDcqaDUIj -d 06-28 -n 1769 -f 上海 -t 浙江
+[2885] add_train -i peOmsW -n 3 -m 12810 -s 温州|上海|浙江大学 -p 17598|95726 -x 16:34 -t 13|7 -o 10 -d 08-16|08-29 -y V
+[2892] query_profile -c Earthspirit -u Schwarz
+[2895] query_ticket -s 北京 -t 温州 -d 06-24 -p cost
+[2904] query_profile -c Eyjafjalla -u Nightmare
+[2908] buy_ticket -u cjBdUCnSGWBcTjLm -i etmgBRlc -d 06-23 -n 1199 -f 上海交通大学 -t 浙江大学
+[2910] logout -u I_am_the_admin
+[2911] query_profile -c Hoshiguma -u cjBdUCnSGWBcTjLm
+[2912] add_user -c WaaiFu -u TgTP -p XZNwzt -n 资萍矱 -m tzbpQYWZLpcXmhDZ -g 8
+[2918] buy_ticket -u Schwarz -i eVxDkanVqfKE -d 06-21 -n 2334 -f 上海 -t 浙江大学
+[2925] query_profile -c Bagpipe -u Durnar
+[2934] query_ticket -s 浙江大学 -t 浙江 -d 08-10 -p time
+[2937] release_train -i eVxDkanVqfKE
+[2947] query_profile -c Skyfire -u Manticore -p WjdNBnlHIAyMmecwQD -g 2
+[2955] buy_ticket -u Hoshiguma -i peOmsW -d 06-02 -n 340 -f 北京 -t 温州
+[2961] login -u Deepcolor -p P27Aav4lsk58
+[2968] refund_ticket -u Skyfire -n 2
+[2976] query_order -u Spot
+[2978] query_profile -c Hoshiguma -u Hibiscus
+[2983] buy_ticket -u Plume -i ZuCmOBDcqaDUIj -d 08-30 -n 3611 -f 上海 -t 北京
+[2993] logout -u ShiraYuki
+[3003] release_train -i ZuCmOBDcqaDUIj
+[3005] query_profile -c Deepcolor -u Schwarz
+[3009] query_order -u Meteorite
+[3013] query_ticket -s 北京 -t 上海 -d 06-16 -p time
+[3023] login -u Liskarm -p dfkOGYlGyX!EwX
+[3025] query_profile -c mhInEBFXIZlywkl -u Deepcolor
+[3034] query_profile -c Frostleaf -u Leizi -p tDMHMGuNuLifvQDCPUrg -g 2
+[3042] logout -u Liskarm
+[3052] query_ticket -s 北京 -t 浙江大学 -d 06-12 -p cost
+[3053] query_order -u Bagpipe
+[3058] buy_ticket -u Firewatch -i etmgBRlc -d 08-06 -n 272 -f 上海交通大学 -t 浙江
+[3067] query_profile -c Eyjafjalla -u Vanilla
+[3074] release_train -i ZuCmOBDcqaDUIj
+[3080] buy_ticket -u Durnar -i peOmsW -d 08-21 -n 1711 -f 温州 -t 北京
+[3087] query_profile -c Frostleaf -u WaaiFu
+[3092] logout -u WaaiFu
+[3095] buy_ticket -u Firewatch -i ZuCmOBDcqaDUIj -d 07-08 -n 2080 -f 浙江 -t 上海交通大学
+[3099] add_user -c Cliffheart -u CVzoESXTdLtULLDswCTG -p BwqXbcB -n 辷厄蔷 -m GBtrctQQbhEBhg -g 2
+[3108] query_ticket -s 上海交通大学 -t 浙江大学 -d 08-10 -p time
+[3112] query_profile -c Hoshiguma -u WaaiFu
+[3114] query_profile -c Leizi -u Beagle
+[3118] query_profile -c Greyy -u Conviction
+[3125] query_ticket -s 温州 -t 上海交通大学 -d 08-22 -p cost
+[3130] login -u Leizi -p KXo1K4srHxo_
+[3137] query_profile -c Skyfire -u Manticore
+[3140] buy_ticket -u Hoshiguma -i ZuCmOBDcqaDUIj -d 08-05 -n 1676 -f 浙江大学 -t 上海交通大学
+[3142] query_ticket -s 浙江 -t 浙江大学 -d 08-25 -p cost
+[3144] query_profile -c Deepcolor -u Durnar -p gasBfunGPWn -g 1
+[3154] query_profile -c Purestream -u Spot -p OajYMcBIlzADgIxf -g 6
+[3163] query_profile -c Skyfire -u Croissant
+[3173] query_profile -c Firewatch -u Rangers
+[3182] refund_ticket -u Leizi -n 4
+[3184] query_profile -c Hung -u Liskarm -p RmtHA -g 7
+[3192] release_train -i peOmsW
+[3201] release_train -i peOmsW
+[3205] logout -u Purestream
+[3211] query_profile -c Nightmare -u Nightmare -p NjBcJbJNtfssAbSuwZZCUj -g 5
+[3217] query_profile -c Schwarz -u Frostleaf
+[3226] add_user -c WaaiFu -u rqvRzYJyVliyoef -p rYRBTIX -n 鰸勘狃 -m EhSpKamgSJVuxHh -g 4
+[3232] exit
